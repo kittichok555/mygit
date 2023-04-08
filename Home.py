@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 st.image("./pic/banner.jpg")
 #st.image("./pic/my.jpg")
 image_file = "./pic/my.jpg"
-st.image(image_file, width=500, caption="Example Image")
+st.image(image_file, width=400,)
 
 html_8 = """
 <div style="background-color:#7E7E7E;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
