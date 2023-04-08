@@ -5,14 +5,19 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
+import os
 
 #st.header("Kittichok555555555") 
 st.image("./pic/banner.jpg")
 #st.image("./pic/my.jpg")
 image_file = "./pic/my.jpg"
 st.image(image_file, width=300)
+
+image_path = os.path.join("data", "my.jpg")
 st.write('<style>div.Widget.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
-st.write("<div style='text-align:center;'><img src='pic\my.jpg' style='width: 50%;'></div>", unsafe_allow_html=True)
+# กำหนดขนาดของส่วนแสดงผลและ path ของไฟล์รูปภาพ
+st.write("<div style='text-align:center;'><img src='{}' style='width: 50%;'></div>".format(image_path), unsafe_allow_html=True)
+
 html_8 = """
 <div style="background-color:#1FFF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h4 style="color: #FF0000">การทำนายข้อมูลดอกไม้</h4></center>
