@@ -10,9 +10,6 @@ from PIL import Image
 st.header("Kittichok") 
 st.image("./pic/banner.jpg")
 #st.image("./pic/my.jpg")
-import streamlit as st
-from PIL import Image
-
 # โหลดรูปภาพ
 image = Image.open('./pic/my.jpg')
 
