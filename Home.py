@@ -13,9 +13,8 @@ st.image("./pic/banner.jpg")
 image_file = "./pic/my.jpg"
 st.image(image_file, width=300)
 
-image_path = os.path.join("data", "my.jpg")
+image_path = os.path.join("pic", "my.jpg")
 st.write('<style>div.Widget.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
-# กำหนดขนาดของส่วนแสดงผลและ path ของไฟล์รูปภาพ
 st.write("<div style='text-align:center;'><img src='{}' style='width: 50%;'></div>".format(image_path), unsafe_allow_html=True)
 
 html_8 = """
