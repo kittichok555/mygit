@@ -9,13 +9,22 @@ import os
 
 #st.header("Kittichok555555555") 
 st.image("./pic/banner.jpg")
-#st.image("./pic/my.jpg")
-image_file = "./pic/my.jpg"
-st.image(image_file, width=300)
+st.image("./pic/my.jpg")
 
-image_path = os.path.join("pic", "my.jpg")
-st.write('<style>div.Widget.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
-st.write("<div style='text-align:center;'><img src='{}' style='width: 50%;'></div>".format(image_path), unsafe_allow_html=True)
+col1, col2, col3 = st.columns(3)
+
+with col1:
+   st.header("Setosa")
+   st.image("./pic/setosa.jpg")
+
+with col2:
+   st.header("Versicolor")
+   st.image("./pic/versicolor.jpg")
+
+with col3:
+   st.header("Virginica")
+   st.image("./pic/Virginica.jpg")
+
 
 html_8 = """
 <div style="background-color:#1FFF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
