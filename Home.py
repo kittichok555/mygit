@@ -5,27 +5,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
-from PIL import Image
+
 
 st.header("Kittichok") 
 st.image("./pic/banner.jpg")
 #st.image("./pic/my.jpg")
-# โหลดรูปภาพ
-image = Image.open('my.jpg')
 
-# กำหนด style ของรูปภาพ
-style = """
-    <style>
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    </style>
-"""
-# แสดงรูปภาพโดยระบุขนาดและใส่ style
-st.write(style, unsafe_allow_html=True)
-st.image(image, width=300, height=200)
+
+
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
