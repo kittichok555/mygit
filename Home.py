@@ -7,9 +7,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 import os
 
-#st.header("Kittichok555555555") 
+st.header("Kittichok") 
 st.image("./pic/banner.jpg")
-st.image("./pic/my.jpg")
+#st.image("./pic/my.jpg")
 
 col1, col2, col3 = st.columns(3)
 
