@@ -11,7 +11,7 @@ st.image("./pic/banner.jpg")
 #st.image("./pic/my.jpg")
 
 html_8 = """
-<div style="background-color:#990066;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<div style="background-color:#7E7E7E;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การทำนายข้อมูลดอกไม้</h5></center>
 </div>
 """
