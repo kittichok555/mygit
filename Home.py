@@ -20,5 +20,6 @@ st.markdown(html_8, unsafe_allow_html=True)
 st.markdown("")
 
 dt = pd.read_csv("./data/iris.csv")
-
+st.markdown("<center>")
 st.write(dt.head(10))
+st.markdown("</center>")
