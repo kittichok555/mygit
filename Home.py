@@ -11,7 +11,7 @@ st.image("./pic/banner.jpg")
 #st.image("./pic/my.jpg")
 image_file = "./pic/my.jpg"
 st.image(image_file, width=300)
-st.write("<div style='text-align:center;'><img src='.\pic\my.jpg' style='width: 50%;'></div>", unsafe_allow_html=True)
+st.write("<div style='text-align:center;'><img src='pic\my.jpg' style='width: 50%;'></div>", unsafe_allow_html=True)
 html_8 = """
 <div style="background-color:#1FFF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h4 style="color: #FF0000">การทำนายข้อมูลดอกไม้</h4></center>
