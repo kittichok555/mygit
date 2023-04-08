@@ -11,7 +11,7 @@ st.header("Kittichok")
 st.image("./pic/banner.jpg")
 #st.image("./pic/my.jpg")
 # โหลดรูปภาพ
-image = Image.open('./pic/my.jpg')
+image = Image.open('my.jpg')
 
 # กำหนด style ของรูปภาพ
 style = """
@@ -23,7 +23,6 @@ style = """
         }
     </style>
 """
-
 # แสดงรูปภาพโดยระบุขนาดและใส่ style
 st.write(style, unsafe_allow_html=True)
 st.image(image, width=300, height=200)
