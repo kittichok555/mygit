@@ -13,7 +13,7 @@ image_file = "./pic/my.jpg"
 st.image(image_file, width=300)
 
 html_8 = """
-<div style="background-color:#7E7E7E;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<div style="background-color:#1FFF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h4 style="color: #FF0000">การทำนายข้อมูลดอกไม้</h4></center>
 </div>
 """
