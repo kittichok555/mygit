@@ -12,7 +12,7 @@ st.image("./pic/banner.jpg")
 
 html_8 = """
 <div style="background-color:#7E7E7E;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
-<center><h4 style="color: #FF9F35">การทำนายข้อมูลดอกไม้</h4></center>
+<center><h4 style="color: #FF0000">การทำนายข้อมูลดอกไม้</h4></center>
 </div>
 """
 
