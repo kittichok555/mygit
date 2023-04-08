@@ -15,15 +15,15 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header("Setosa")
-   st.image("./pic/setosa.jpg",width=300)
+   st.image("./pic/setosa.jpg", use_column_width=True)
 
 with col2:
    st.header("Versicolor")
-   st.image("./pic/versicolor.jpg",width=300)
+   st.image("./pic/versicolor.jpg", use_column_width=True)
 
 with col3:
    st.header("Virginica")
-   st.image("./pic/Virginica.jpg",width=300)
+   st.image("./pic/Virginica.jpg", use_column_width=True)
 
 
 html_8 = """
