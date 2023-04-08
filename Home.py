@@ -12,7 +12,11 @@ st.image("./pic/banner.jpg")
 #st.image("./pic/my.jpg")
 
 
+col1, col2, col3 = st.columns(3)
 
+with col2:
+   
+   st.image("./pic/my.jpg", use_column_width=True)
 
 col1, col2, col3 = st.columns(3)
 
